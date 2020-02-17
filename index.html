@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>test</title>
+  
+</head>
+<body>
+<div id="app">
+    {{ message }}
+</div>
+<div id="app-6">
+    <p>{{ message }} {{count}}</p> 
+    <input v-model="message" v-on:click="plus">
+
+    <ol>
+        <!-- Создаём экземпляр компонента todo-item -->
+        <todo-item></todo-item>
+    </ol>
+    
+    <button-my></button-my>
+    <br>
+    <groupbutton-my></groupbutton-my>
+</div>
+
+ 
+<script async data-main="app/main" src="scripts/require/2.3.6/require.js"></script> 
+<script src="scripts/vue/2.6.10/vue.js"></script>
+
+<script async src="app/components/button/button.js"></script>
+<script async src="app/components/groupbutton/groupbutton.js"></script>
+<script  async src="app/modul1.js"></script> 
+
+</body>
+</html>
