@@ -12,9 +12,12 @@
     {{ message }}
 </div>
 <div id="app-6">
-    <p>{{ message }} {{count}}</p> 
-    <input v-model="message" v-on:click="plus">
+    <p>Новые исравления</p>
+    <p>{{ message }} {{count}}</p>  
 
+
+    <input v-model="message" v-on:click="plus">
+    
     <ol>
         <!-- Создаём экземпляр компонента todo-item -->
         <todo-item></todo-item>
