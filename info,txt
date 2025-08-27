@@ -1,0 +1,11 @@
+-- Установите зависимости для сервера:
+npm init -y
+npm install express socket.io
+
+-- Создайте React-приложение в папке client:
+npx create-react-app client
+cd client
+npm install socket.io-client simple-peer
+
+-- Замените содержимое src/App.js:
+-- Добавьте стили в src/App.css:
