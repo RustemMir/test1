@@ -9,3 +9,15 @@ npm install socket.io-client simple-peer
 
 -- Замените содержимое src/App.js:
 -- Добавьте стили в src/App.css:
+
+-- Запуск приложения
+-- Запустите сервер:
+
+bash
+node server.js
+-- В другом терминале запустите клиент:
+
+bash
+cd client
+npm start
+-- Откройте браузер и перейдите по адресу http://localhost:3000
